@@ -161,10 +161,19 @@
       </p>
     </div>
 
-    <div class="hero-photo">
-      <img src="profile.jpg" alt="Tusher Karmakar">
-    </div>
-  </div>
+    .hero-photo {
+  flex: 0 0 300px;   /* give more space */
+  text-align: right;
+}
+
+.hero-photo img {
+  width: 100%;
+  max-width: 300px;  /* bigger image */
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+}
 
   <div class="footer-title">Tusher Karmakar</div>
   <ul class="contact">
